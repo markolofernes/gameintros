@@ -272,12 +272,12 @@ footer {
   padding: 10px;
 }
 /* Carousel images starts here */
-.carouselimgML1 {background-image: url(/img/carousel/ml1.JPG);}
-.carouselimgML2 {background-image: url(/img/carousel/ml2.jpg);} 
-.carouselimgVAL1 {background-image: url(/img/carousel/val1.jpg);} 
-.carouselimgVAL2 {background-image: url(/img/carousel/val2.jpg);} 
-.carouselimgGTAV1 {background-image: url(/img/carousel/gta51.jpg);} 
-.carouselimgGTAV2 {background-image: url(/img/carousel/gta52.jpg);} 
-.carouselimgGTAV3 {background-image: url(/img/carousel/gta53.jpg);} 
+.carouselimgML1 {background-image: url(\img\carousel\ml1.JPG);}
+.carouselimgML2 {background-image: url(\img\carousel\ml2.jpg);} 
+.carouselimgVAL1 {background-image: url(\img\carousel\val1.jpg);} 
+.carouselimgVAL2 {background-image: url(\img\carousel\val2.jpg);} 
+.carouselimgGTAV1 {background-image: url(\img\carousel\gta51.jpg);} 
+.carouselimgGTAV2 {background-image: url(\img\carousel\gta52.jpg);} 
+.carouselimgGTAV3 {background-image: url(\img\carousel\gta53.jpg);} 
 /* Carousel images starts here */
 
