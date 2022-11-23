@@ -220,6 +220,7 @@ footer {
   justify-content: center;
   text-indent: 25px;
   justify-items: center;
+  border-radius: 25px;
   /* text-align: center; */
   /* text-justify: auto; */
   
@@ -230,6 +231,7 @@ footer {
   max-width: 648px;
   justify-content: center;
   position: relative;
+  height: auto;
 }
 
 .darkfilter{
@@ -252,32 +254,46 @@ footer {
   /* flex-wrap: wrap-reverse; */
    /* align-content: flex-end; */
 }
-.botton{
-  z-index: 100;
-  position: absolute;
-}
+
 .carousel-size{
-  margin: 10px;
+  margin: -10px;
   min-width: 324px;
   min-height: 189px;
   max-width: 2000px;
-  max-height: 378px;
+  max-height: 370px;
+  height: auto;
+  height: 100%;
   width: 120%;
-  padding-right: 100px;
+  /* padding-right: 100px; */
 }
 .corousel-style{
-  z-index: 1;
-  position: relative;
+  /* z-index: 1; */
+  /* position: relative; */
   border-radius: 25px;
-  padding: 10px;
+  padding: 8px 12px 8px 8px;
+  margin-bottom: 50px;
 }
 /* Carousel images starts here */
-.carouselimgML1 {background-image: url('/img/carousel/ml1.JPG');}
-.carouselimgML2 {background-image: url('/img/carousel/ml2.jpg');} 
-.carouselimgVAL1 {background-image: url('/img/carousel/val1.jpg');} 
-.carouselimgVAL2 {background-image: url('/img/carousel/val2.jpg');} 
-.carouselimgGTAV1 {background-image: url('/img/carousel/gta51.jpg');} 
-.carouselimgGTAV2 {background-image: url('/img/carousel/gta52.jpg');} 
-.carouselimgGTAV3 {background-image: url('/img/carousel/gta53.jpg');} 
+.carouselimgML1 {
+  background-image: url('/img/carousel/ml1.JPG');
+}
+.carouselimgML2 {
+  background-image: url('/img/carousel/ml2.jpg');
+} 
+.carouselimgVAL1 {
+  background-image: url('/img/carousel/val1.jpg');
+} 
+.carouselimgVAL2 {
+  background-image: url('/img/carousel/val2.jpg');
+} 
+.carouselimgGTAV1 {
+  background-image: url('/img/carousel/gta51.jpg');
+} 
+.carouselimgGTAV2 {
+  background-image: url('/img/carousel/gta52.jpg');
+} 
+.carouselimgGTAV3 {
+  background-image: url('/img/carousel/gta53.jpg');
+} 
 /* Carousel images starts here */
 
