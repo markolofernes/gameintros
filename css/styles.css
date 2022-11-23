@@ -108,7 +108,18 @@ nav{
   transition-duration: 0.7s;
   width: 70px;
 }
-
+.ftrbutton {
+  appearance: button;
+  border: none;
+  background: rgba(0, 0, 0, 0.01);
+  justify-content: space-around;
+  padding: 10px 0 10px 0;
+  /* text-align: center; */
+  text-decoration: none;
+  transition-duration: 0.7s;
+  color: white;
+  width: 100px;
+}
 .button {
   appearance: button;
   border: none;
@@ -214,36 +225,31 @@ footer {
 }
 footer:hover { 
   height: 120px;
-  backdrop-filter: blur(17px);
+  backdrop-filter: blur(14px);
 }
 .akumaimg {
   background-image: url('/img/akuma.png');
   background-repeat: no-repeat;
   background-size:contain ;
-  top: -290px;
+  top: -350px;
   z-index: -1;
-  /* padding-bottom: 250px; */
   position: relative;
   height: 320px;
   margin-bottom: -450px;
-  /* left: calc(100% - 320px); */
 }
 .introduction {
   background-color: rgba(0, 0, 0, .75);
   color: white;
   width: 100%;
   padding: 150px 25px 75px 25px;
-  /* max-height: 215px; */
   text-indent: 35px;
-  /* text-align: center; */
-  /* text-justify: auto; */
-
 }
 .TopGames {
-  background-color: rgba(75, 25, 25, .75);
+  background-color: rgba(39, 0, 0, 0.5);
   color: white;
   margin: 0 auto;
   padding: 20px;
+  border: solid rgb(161, 0, 0);
   border-radius: 25px;
   text-align: center;
   width: 100%;
