@@ -272,12 +272,6 @@ footer {
   padding: 10px;
 }
 /* Carousel images starts here */
-.carouselimgML1 {
-  background-image: url('/img/carousel/ml1.JPG');
-}
-.carouselimgML2 {
-  background-image: url('/img/carousel/ml2.jpg');
-} 
 .carouselimgVAL1 {
   background-image: url('/img/carousel/val1.jpg');
 } 
