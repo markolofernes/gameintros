@@ -210,28 +210,33 @@ footer {
   opacity: 1; 
   backdrop-filter: blur(7px);
 }
-.showgameinfo{
-
+.akumaimg {
+  background-image: url('/img/akuma.png');
+  background-repeat: no-repeat;
+  background-size:contain ;
+  top: -290px;
+  z-index: -1;
+  /* padding-bottom: 250px; */
+  position: relative;
+  height: 320px;
+  margin-bottom: -450px;
+  left: calc(100% - 320px);
 }
 .introduction {
   background-color: rgba(0, 0, 0, .75);
   color: white;
-  margin: 0 auto;
-  padding: 43px 25px 220px 25px;
-  max-width: 768px;
-  max-height: 215px;
-  justify-content: center;
-  text-indent: 25px;
-  justify-items: center;
-  border-radius: 25px;
+  width: 100%;
+  padding: 150px 25px 75px 25px;
+  /* max-height: 215px; */
+  text-indent: 35px;
   /* text-align: center; */
   /* text-justify: auto; */
 
 }
 .TopGames {
   background-color: rgba(75, 25, 25, .75);
-  color: white;margin: 0 auto;
-  margin-top: 25px;
+  color: white;
+  margin: 0 auto;
   padding: 20px;
   border-radius: 25px;
   text-align: center;
