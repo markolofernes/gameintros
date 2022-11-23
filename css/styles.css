@@ -226,7 +226,7 @@ footer:hover {
   position: relative;
   height: 320px;
   margin-bottom: -450px;
-  left: calc(100% - 320px);
+  /* left: calc(100% - 320px); */
 }
 .introduction {
   background-color: rgba(0, 0, 0, .75);
