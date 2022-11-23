@@ -4,47 +4,47 @@
   -o-user-drag: none;
   -ms-user-select: none;
   -webkit-user-drag: none;
-  -webkit-user-select: none; 
+  -webkit-user-select: none;
   user-select: none;
 }
 
 /* BackGround images here for header and body start here */
-.backgroundimgHere{background-image: url('/img/bkgimg.jpg');}
-.backgroundimgHere_{background-image: url('/img/bkgimg_.jpg');}
-.onlinegamesimg{background-image: url('/img/onlinegames.jpg');}
-.onlinegamesimg_{background-image: url('/img/onlinegames_.jpg');}
-.offlinegamesimg{background-image: url('/img/offlinegames.jpg');}
-.offlinegamesimg_{background-image: url('/img/offlinegames_.jpg');}
-.langamesimg{background-image: url('/img/langames.jpg');}
-.langamesimg_{background-image: url('/img/langames_.jpg');}
-.mobilegamesimg{background-image: url('/img/mobilegames.jpg');}
-.mobilegamesimg_{background-image: url('/img/mobilegames_.jpg');}
-.gameconsolesimg{background-image: url('/img/consolegames.jpg');}
-.gameconsolesimg_{background-image: url('/img/consolegames_.jpg');}
-.gametoolsimg{background-image: url('/img/gametools.jpg');}
-.gametoolsimg_{background-image: url('/img/gametools_.jpg');}
+.backgroundimgHere {background-image: url('/img/bkgimg.jpg');}
+.backgroundimgHere_ {background-image: url('/img/bkgimg_.jpg');}
+.onlinegamesimg {background-image: url('/img/onlinegames.jpg');}
+.onlinegamesimg_ {background-image: url('/img/onlinegames_.jpg');}
+.offlinegamesimg {background-image: url('/img/offlinegames.jpg');}
+.offlinegamesimg_ {background-image: url('/img/offlinegames_.jpg');}
+.langamesimg {background-image: url('/img/langames.jpg');}
+.langamesimg_ {background-image: url('/img/langames_.jpg');}
+.mobilegamesimg {background-image: url('/img/mobilegames.jpg');}
+.mobilegamesimg_ {background-image: url('/img/mobilegames_.jpg');}
+.gameconsolesimg {background-image: url('/img/consolegames.jpg');}
+.gameconsolesimg_ {background-image: url('/img/consolegames_.jpg');}
+.gametoolsimg {background-image: url('/img/gametools.jpg');}
+.gametoolsimg_ {background-image: url('/img/gametools_.jpg');}
 /* BackGround images here for header and body ends here */
 
-.snd2bkImg{
-  z-index:-1;
+.snd2bkImg {
+  z-index: -1;
 }
 
-.imgbg{
+.imgbg {
   width: 100%;
-  position:fixed;
+  position: fixed;
 }
 
-.NavTitle{
+.NavTitle {
   position: fixed;
   text-align: center;
   z-index: 3;
   width: 100%;
   color: rgb(210, 217, 229);
   padding-top: 52px;
-  text-shadow: 3px 3px 3px rgba(0,0,0,0.9)
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.9)
 }
 
-header{
+header {
   display: flex;
   background-color: rgb(0, 4, 44);
   color: rgb(255, 255, 255);
@@ -52,11 +52,11 @@ header{
   font-size: 29px;
   position: fixed;
   top: 0;
-  position: fixed;  
+  position: fixed;
   z-index: 2;
 }
 
-nav{
+nav {
   display: flex;
   font-size: 1rem;
   margin-left: -12px;
@@ -64,6 +64,7 @@ nav{
   width: 103%;
   align-items: flex-start;
 }
+
 .navbar {
   background-color: transparent;
   z-index: 4;
@@ -71,24 +72,26 @@ nav{
   padding-right: 10px;
   margin-bottom: -50px;
   margin-top: 60px;
-  justify-content: right; 
+  justify-content: right;
   width: 107%;
 }
+
 @media (max-width: 767px) {
-  nav{
+  nav {
     margin-left: -12px;
     margin-right: -12px;
     flex-direction: row-reverse;
-    text-align:center;
+    text-align: center;
   }
-  .NavTitle{
+
+  .NavTitle {
     left: -6px;
   }
 }
 
-.naviconcolor{
+.naviconcolor {
   color: rgb(212, 219, 241);
-  font-size: 34px ;
+  font-size: 34px;
   flex-direction: row-reverse;
 }
 
@@ -102,74 +105,76 @@ nav{
 .homebtn {
   appearance: button;
   border: none;
-  background: rgba(0,0,0,0.01); 
+  background: rgba(0, 0, 0, 0.01);
   justify-content: space-around;
   padding: 14px;
   transition-duration: 0.7s;
   width: 70px;
 }
+
 .ftrbutton {
   appearance: button;
   border: none;
   background: rgba(0, 0, 0, 0.01);
   justify-content: space-around;
   padding: 10px 0 10px 0;
-  /* text-align: center; */
   text-decoration: none;
   transition-duration: 0.7s;
   color: white;
   width: 100px;
 }
+
 .button {
   appearance: button;
   border: none;
-  background: rgba(0,0,0,0.01); 
+  background: rgba(0, 0, 0, 0.01);
   justify-content: space-around;
   padding: 10px;
-  /* text-align: center; */
   text-decoration: none;
   margin: 5px 2px;
   transition-duration: 0.7s;
-  color:white;
+  color: white;
   width: 170px;
 }
 
 .button1 {
-  background: rgba(0,0,0,0.01); 
-  border-radius: 1px;
+  background: rgba(0, 0, 0, 0.01);
+  border-radius: 5px;
 }
 
 .button1:hover {
   background-color: #00b3ff33;
   color: white;
   border-radius: 25px;
-  opacity: 1; 
+  opacity: 1;
 }
 
-.button2{
-  text-decoration:none;
+.button2 {
+  text-decoration: none;
   text-align: center;
 }
 
-.AccountProfile{
+.AccountProfile {
   z-index: 10;
   position: fixed;
   padding: 15px;
   margin-top: 15px;
   margin-bottom: -45px;
   margin-right: 15px;
-  background: rgba(0,0,0,0.01); 
+  background: rgba(0, 0, 0, 0.01);
   color: white;
   transition-duration: 0.7s;
   left: calc(100% - 60px);
-  
+
 }
+
 .AccountProfile:hover {
   background-color: #00b3ff33;
   padding: 15px;
   color: white;
   border-radius: 25px;
 }
+
 img {
   border-radius: 17px;
   margin: 20px;
@@ -183,11 +188,13 @@ img:hover {
   width: 90%;
   height: auto;
 }
-.imgpos{
+
+.imgpos {
   text-align: center;
   padding-top: 160px;
 }
-.blurIt{
+
+.blurIt {
   backdrop-filter: blur(7px);
 }
 
@@ -199,44 +206,48 @@ img:hover {
 
 .xtransp2 {
   background-color: transparent;
-  background: rgba(75, 79, 100, 0.05); 
+  background: rgba(75, 79, 100, 0.05);
   color: rgb(255, 255, 255);
   backdrop-filter: blur(7px);
-  opacity: 1; 
+  opacity: 1;
 }
 
-.iconlogo{
+.iconlogo {
   font-size: 37px;
 }
+
 footer {
   z-index: 12;
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  background: rgba(0,0,0,0.25); 
+  background: rgba(0, 0, 0, 0.25);
   color: rgb(255, 255, 255);
   text-align: center;
   padding-top: 17px;
-  opacity: 1; 
+  opacity: 1;
   backdrop-filter: blur(7px);
   transition-duration: 0.7s;
   height: 50px;
 }
-footer:hover { 
+
+footer:hover {
   height: 120px;
   backdrop-filter: blur(14px);
 }
+
 .akumaimg {
   background-image: url('/img/akuma.png');
   background-repeat: no-repeat;
-  background-size:contain ;
+  background-size: contain;
   top: -350px;
   z-index: -1;
   position: relative;
   height: 320px;
   margin-bottom: -450px;
 }
+
 .introduction {
   background-color: rgba(0, 0, 0, .75);
   color: white;
@@ -244,6 +255,7 @@ footer:hover {
   padding: 150px 25px 75px 25px;
   text-indent: 35px;
 }
+
 .TopGames {
   background-color: rgba(39, 0, 0, 0.5);
   color: white;
@@ -254,7 +266,8 @@ footer:hover {
   text-align: center;
   width: 100%;
 }
-.carouselbox{
+
+.carouselbox {
   color: white;
   margin: 50px auto;
   max-width: 648px;
@@ -262,34 +275,30 @@ footer:hover {
   position: relative;
   height: auto;
 }
-.titlehilight{
+
+.titlehilight {
   background-color: rgba(41, 87, 172, 0.25);
   color: white;
   padding: 20px;
   margin: -16px;
 }
-.darkfilter{
-  background: rgb(0,0,0,.5);
+
+.darkfilter {
+  background: rgb(0, 0, 0, .5);
   color: rgb(182, 182, 182);
   padding: 25px;
   border-radius: 25px;
   box-shadow: 3px 3px 3px #000000da;
 }
-.container-1{
+
+.container-1 {
   z-index: -1;
   margin-top: 170px;
   height: 95vh;
   width: 100%;
-  /* z-index: 10000; */
-  /* margin: 0 auto; */
-  /* margin: 0 10px 0 0; */
-  /* background-repeat: no-repeat; */
-  /* background-size: cover; */
-  /* flex-wrap: wrap-reverse; */
-   /* align-content: flex-end; */
 }
 
-.carousel-size{
+.carousel-size {
   margin: -10px;
   min-width: 324px;
   min-height: 189px;
@@ -299,15 +308,14 @@ footer:hover {
   height: 100%;
   width: 120%;
   padding-right: 75px;
-  /* padding-right: 100px; */
 }
-.corousel-style{
-  /* z-index: 1; */
-  /* position: relative; */
+
+.corousel-style {
   border-radius: 25px;
   padding: 8px 12px 8px 8px;
   margin-bottom: 50px;
 }
+
 .fa {
   padding: 10px;
   font-size: 20px;
@@ -324,29 +332,14 @@ footer:hover {
 .fa-facebook {
   background: #3B5998;
   color: white;
-  
 }
-/* Carousel images starts here */
-.carouselimgML1 {
-  background-image: url('/img/carousel/ml1.JPG');
-}
-.carouselimgML2 {
-  background-image: url('/img/carousel/ml2.jpg');
-} 
-.carouselimgVAL1 {
-  background-image: url('/img/carousel/val1.jpg');
-} 
-.carouselimgVAL2 {
-  background-image: url('/img/carousel/val2.jpg');
-} 
-.carouselimgGTAV1 {
-  background-image: url('/img/carousel/gta51.jpg');
-} 
-.carouselimgGTAV2 {
-  background-image: url('/img/carousel/gta52.jpg');
-} 
-.carouselimgGTAV3 {
-  background-image: url('/img/carousel/gta53.jpg');
-} 
-/* Carousel images starts here */
 
+/* Carousel images starts here */
+.carouselimgML1 {background-image: url('/img/carousel/ml1.JPG');}
+.carouselimgML2 {background-image: url('/img/carousel/ml2.jpg');}
+.carouselimgVAL1 {background-image: url('/img/carousel/val1.jpg');}
+.carouselimgVAL2 {background-image: url('/img/carousel/val2.jpg');}
+.carouselimgGTAV1 {background-image: url('/img/carousel/gta51.jpg');}
+.carouselimgGTAV2 {background-image: url('/img/carousel/gta52.jpg');}
+.carouselimgGTAV3 {background-image: url('/img/carousel/gta53.jpg');}
+/* Carousel images starts here */
