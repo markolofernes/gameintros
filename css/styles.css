@@ -25,6 +25,24 @@
 .gametoolsimg_ {background-image: url('/img/gametools_.jpg');}
 /* BackGround images here for header and body ends here */
 
+.Search{
+  z-index: 10;
+  position: fixed;
+  padding: 15px;
+  margin-top: 15px;
+  margin-bottom: -45px;
+  margin-right: 15px;
+  background: rgba(0, 0, 0, 0.01);
+  color: white;
+  transition-duration: 0.7s;
+  left: calc(100% - 120px);
+}
+.Search:hover {
+  background-color: #00b3ff33;
+  padding: 15px;
+  color: white;
+  border-radius: 25px;
+}
 .move2back1 {
   z-index: -1;
 }
