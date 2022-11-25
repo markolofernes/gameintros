@@ -21,23 +21,23 @@
     <link rel="stylesheet" href="css/styles.css" />
 </head>
 
-<body>
+<body class="index">
     <div>
         <a class="material-symbols-outlined AccountProfile" data-bs-toggle="modal" data-bs-target="#AccProf">mail</a>
         <a class="material-symbols-outlined Search" data-bs-toggle="modal" data-bs-target="#search">search</a>
     </div>
-    <div><iframe src="home.html" title="Home" name="iframe_a" height="1024px"  width="103%"></iframe></div>
-    <h5 class="NavTitle h5">HOME</h5>
+    <div><iframe src="home.html" title="Home" name="iframe_a" height="2024px"  width="100%"></iframe></div>
     <div class="container-fluid">
         <div class="row">
             <header class="headpd">
                 <div class="backgroundimgHere_ bg-image mask">
                     <div class="row">
-
+                        <button class="button button1">
                         <div class="d-flex justify-content-left align-items-left pt-3 ps-5 blurIt">
                             <p class="material-symbols-outlined iconlogo">stadia_controller</p>
                             <h1 class="h2">&nbsp;GameIntros</h1>
                         </div>
+                        </button>
                     </div>
                 </div>
                 <nav id="Nav-ito" class="navbar navbar-expand-md clearfix">
@@ -56,20 +56,51 @@
                     </div>
                 </nav>
             </header>
-            <div class="backgroundimgHere move2back1 bg-image mask imgbg">
             </div>
         </div>
-        
     </div>
-<!-- 
-    <iframe src="" name="iframe_a" height="300px" width="100%" title="Iframe Example" style="border:none;" ></iframe>
-
-    <p><a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a></p>
-    
- -->
-
-
-    
+    <div class="modal fade" id="AccProf">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content xtransp2">
+            <div class="xtransp2">
+              <div class="xtransp2 p-5 rounded-5">
+                <h3 class="fw-bold mb-3 text-center">Subscribe to our newsletter</h3>
+                <form>
+                  <div class="mb-3">
+                    <input class="form-control" type="text" placeholder="Name" name="name" id="fieldname">
+                  </div>
+                  <div class="mb-3">
+                    <input class="form-control" type="text" placeholder="E-mail" name="email" id="fieldemail">
+                  </div>
+                  <center>
+                    <button class="button button1" type="submit" data-bs-dismiss="modal"><a class="button2">Subscribe</a></button>
+                  </center>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="search">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content xtransp2">
+            <div class="xtransp2">
+              <div class="xtransp2 p-2 rounded-5">
+                <h3 class="fw-bold text-center p-2">Search for Games</h3>
+                <form>
+                  <div class="mb-2">
+                    <input class="form-control text-center" type="text" placeholder="search" name="search" id="searchgame">
+                  </div>
+                  <center>
+                    <button class="button button1 m-2" type="submit" data-bs-dismiss="modal"><a
+                        class="button2">Search</a></button>
+                  </center>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>    
     <audio id="audio"><source src="snd/hover3.mp3"/></audio>
     <footer>
         <p>GameIntros - CopyRight(c) 2022</p>
@@ -84,11 +115,3 @@
 </body>
 </html>
 
-<!-- 
-onlineG
-offlineG
-lanG
-mobileG
-Gconsoles
-Gtools
- -->
