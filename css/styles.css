@@ -7,22 +7,25 @@
   -webkit-user-select: none;
   user-select: none;
 }
-
+body {
+  /* overflow-y: hidden; */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
 /* BackGround images here for header and body start here */
 .backgroundimgHere {background-image: url('/img/bkgimg.jpg');}
 .backgroundimgHere_ {background-image: url('/img/bkgimg_.jpg');}
 .onlinegamesimg {background-image: url('/img/onlinegames.jpg');}
-.onlinegamesimg_ {background-image: url('/img/onlinegames_.jpg');}
+/* .onlinegamesimg_ {background-image: url('/img/onlinegames_.jpg');} */
 .offlinegamesimg {background-image: url('/img/offlinegames.jpg');}
-.offlinegamesimg_ {background-image: url('/img/offlinegames_.jpg');}
+/* .offlinegamesimg_ {background-image: url('/img/offlinegames_.jpg');} */
 .langamesimg {background-image: url('/img/langames.jpg');}
-.langamesimg_ {background-image: url('/img/langames_.jpg');}
+/* .langamesimg_ {background-image: url('/img/langames_.jpg');} */
 .mobilegamesimg {background-image: url('/img/mobilegames.jpg');}
-.mobilegamesimg_ {background-image: url('/img/mobilegames_.jpg');}
+/* .mobilegamesimg_ {background-image: url('/img/mobilegames_.jpg');} */
 .gameconsolesimg {background-image: url('/img/consolegames.jpg');}
-.gameconsolesimg_ {background-image: url('/img/consolegames_.jpg');}
+/* .gameconsolesimg_ {background-image: url('/img/consolegames_.jpg');} */
 .gametoolsimg {background-image: url('/img/gametools.jpg');}
-.gametoolsimg_ {background-image: url('/img/gametools_.jpg');}
+/* .gametoolsimg_ {background-image: url('/img/gametools_.jpg');} */
 /* BackGround images here for header and body ends here */
 
 .Search{
@@ -119,7 +122,7 @@ nav {
   background-color: #13142b;
   background-color: transparent;
   z-index: 3;
-  backdrop-filter: blur(3px);
+  /* backdrop-filter: blur(3px); */
 }
 
 .homebtn {
@@ -214,7 +217,7 @@ img:hover {
 }
 
 .blurIt {
-  backdrop-filter: blur(7px);
+  backdrop-filter: blur(1000px);
 }
 
 .xtransp {
@@ -367,3 +370,23 @@ footer:hover {
 .carouselimgGTAV2 {background-image: url('/img/carousel/gta52.jpg');}
 .carouselimgGTAV3 {background-image: url('/img/carousel/gta53.jpg');}
 /* Carousel images starts here */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, .25); 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(1, 0, 65, 0.25); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
