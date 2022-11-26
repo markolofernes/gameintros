@@ -17,7 +17,7 @@ var w = window.innerWidth;
 var h = window.innerHeight;
 
 function myFunction() {
-  document.getElementById("getheightIframe").style.height = h + 200 + "px";
+  document.getElementById("getheightIframe").style.height = h + 150 + "px";
 }
 window.onload = function() {
     if(!window.location.hash) {
