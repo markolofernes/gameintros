@@ -12,3 +12,16 @@ $("#Nav-ito a")
     $("#audio" + $(this).data("beeper"))[0].play();
   });
 $("#audio").attr("id", "audio0");
+
+var w = window.innerWidth;
+var h = window.innerHeight;
+
+function myFunction() {
+  document.getElementById("getheightIframe").style.height = h + 200 + "px";
+}
+window.onload = function() {
+    if(!window.location.hash) {
+        window.location = window.location + '#?';
+        window.location.reload();
+    }
+}

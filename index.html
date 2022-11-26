@@ -26,7 +26,7 @@
         <a class="material-symbols-outlined AccountProfile" data-bs-toggle="modal" data-bs-target="#AccProf">mail</a>
         <a class="material-symbols-outlined Search" data-bs-toggle="modal" data-bs-target="#search">search</a>
     </div>
-    <div><iframe src="home.html" title="Home" name="iframe_a" height="999px"  width="100%"></iframe></div>
+    <div><iframe id="getheightIframe" src="home.html" title="Home" name="iframe_a" height="1px" width="100%" onload="myFunction()"></iframe></div>
     <div class="container-fluid">
         <div class="row">
             <header class="headpd">
@@ -34,7 +34,7 @@
                     <div class="row">
                       
                         <div role="button" class="d-flex justify-content-left align-items-left pt-3 ps-5 blurIt">
-                          <a href="index.html" class="button2 naviconcolor float-right">
+                          <a href="home.html" class="button2 naviconcolor float-right" target="iframe_a">
                             <p class="material-symbols-outlined iconlogo">stadia_controller</p>
                             <h1 class="h2">&nbsp;GameIntros</a></h1>
                         
@@ -111,7 +111,6 @@
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
     <script src="js/jav.js"></script>
 </body>
 </html>
