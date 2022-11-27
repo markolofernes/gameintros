@@ -9,5 +9,4 @@ function clicked(item) {
             $($(item).attr("vdplay")).attr('src', url);
         });
     });
-  
   }

@@ -15,6 +15,16 @@
   <!-- MDB -->
   <link rel="stylesheet" href="css/mdb.min.css" />
   <link rel="stylesheet" href="css/styles.css" />
+  <style>
+
+    body {
+      background-image: url(img/offlinegames.jpg);
+      background-size: cover;
+      background-position: 50% 0;
+      height: 100%;
+    }
+    
+    </style>  
 </head>
 <body>
     <div class="container-fluid">
@@ -306,5 +316,53 @@
             
             <!-- next next next next next next next next next next next next next next next next next next -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+  <script src="js\jquery.ripples.js"></script>
+  <script>
+  $(document).ready(function() {
+    try {
+      $('body').ripples({
+        resolution: 512,
+        dropRadius: 20, //px
+        perturbance: 0.04,
+      });
+      $('main').ripples({
+        resolution: 128,
+        dropRadius: 10, //px
+        perturbance: 0.04,
+        interactive: false
+      });
+    }
+    catch (e) {
+      $('.error').show().text(e);
+    }
+  
+    $('.js-ripples-disable').on('click', function() {
+      $('body, main').ripples('destroy');
+      $(this).hide();
+    });
+  
+    $('.js-ripples-play').on('click', function() {
+      $('body, main').ripples('play');
+    });
+  
+    $('.js-ripples-pause').on('click', function() {
+      $('body, main').ripples('pause');
+    });
+  
+    // Automatic drops
+    setInterval(function() {
+      var $el = $('main');
+      var x = Math.random() * $el.outerWidth();
+      var y = Math.random() * $el.outerHeight();
+      var dropRadius = 20;
+      var strength = 0.04 + Math.random() * 0.04;
+  
+      $el.ripples('drop', x, y, dropRadius, strength);
+    }, 400);
+  });
+  </script>
     </body>
     </html>
