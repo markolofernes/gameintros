@@ -13,15 +13,18 @@ $("#Nav-ito a")
   });
 $("#audio").attr("id", "audio0");
 
-var w = window.innerWidth;
-var h = window.innerHeight;
-
-function myFunction() {
-  document.getElementById("getheightIframe").style.height = h + 150 + "px";
-}
-window.onload = function() {
-    if(!window.location.hash) {
-        window.location = window.location + '#?';
-        window.location.reload();
+$("#itemSounds a")
+  .each(function(i) {
+    if (i != 0) {
+      $("#audiox")
+        .clone()
+        .attr("id", "audiox" + i)
+        .appendTo($(this).parent());
     }
-}
+    $(this).data("beeper", i);
+  })
+  .mouseenter(function() {
+    $("#audiox" + $(this).data("beeper"))[0].play();
+  });
+$("#audiox").attr("id", "audiox0");
+
