@@ -15,7 +15,6 @@
   <!-- MDB -->
   <link rel="stylesheet" href="css/mdb.min.css" />
   <link rel="stylesheet" href="css/styles.css" />
-
 </head>
 <body>
     <div class="container-fluid">
@@ -315,23 +314,13 @@
 
   <script>
   $(document).ready(function() {
-    try {
-      $('body').ripples({
-        resolution: 512,
-        dropRadius: 20, //px
-        perturbance: 0.04,
-      });
-    }
-    catch (e) {
-      $('.error').show().text(e);
-    }
-    setInterval(function() {
-      var x = Math.random() * $el.outerWidth();
-      var y = Math.random() * $el.outerHeight();
-      var dropRadius = 20;
-      var strength = 0.04 + Math.random() * 0.04;
-      $el.ripples('drop', x, y, dropRadius, strength);
-    }, 400);
+    try {$('body').ripples({
+      resolution: 512,
+      dropRadius: 50,
+      perturbance: 0.04,
+  });
+  }
+    catch(e){}
   });
   </script>
     </body>
