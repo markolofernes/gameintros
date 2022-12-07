@@ -1,0 +1,17 @@
+pwede mo makuha ang json file (data)
+
+-same html source:
+  {
+      "fruit": "Apple",
+      "size": "Large",
+      "color": "Red"
+  }
+
+-local source
+   usertemp.json
+   fetch("usertemp.json")
+
+
+-external server source (recommended)
+
+ fetch("https://jsonplaceholder.typicode.com/posts")
